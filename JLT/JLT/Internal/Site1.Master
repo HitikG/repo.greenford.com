@@ -7,7 +7,7 @@
     <title>JLT Internal</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <script src="CoreBundles/jquery-2.1.4.js"></script>
+    <script src="/CoreBundles/jquery-2.1.4.js"></script>
     <script src="/CoreBundles/bootstrap.js"></script>
     <link href="/CoreBundles/bootstrap.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />

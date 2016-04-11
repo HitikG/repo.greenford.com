@@ -94,10 +94,66 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\demo.css" />
+    <Content Include="assets\css\get-shit-done.css" />
+    <Content Include="assets\css\gsdk-base.css" />
+    <Content Include="assets\css\gsdk-checkbox-radio-switch.css" />
+    <Content Include="assets\css\gsdk-sliders.css" />
+    <Content Include="assets\img\bg.jpg" />
+    <Content Include="assets\img\blurred-black-cover.jpeg" />
+    <Content Include="assets\img\carousel_blue.png" />
+    <Content Include="assets\img\carousel_green.png" />
+    <Content Include="assets\img\carousel_orange.png" />
+    <Content Include="assets\img\carousel_red.png" />
+    <Content Include="assets\img\cover_4.jpg" />
+    <Content Include="assets\img\cover_4_blur.jpg" />
+    <Content Include="assets\img\dulau.jpg" />
+    <Content Include="assets\img\mask.png" />
+    <Content Include="assets\img\mockup.png" />
+    <Content Include="assets\img\new_logo.png" />
+    <Content Include="assets\img\tim_80x80.png" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\get-shit-done.js" />
+    <Content Include="assets\js\gsdk-bootstrapswitch.js" />
+    <Content Include="assets\js\gsdk-checkbox.js" />
+    <Content Include="assets\js\gsdk-radio.js" />
+    <Content Include="assets\js\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="bootstrap3\css\bootstrap-theme.css" />
+    <Content Include="bootstrap3\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap3\css\bootstrap.css" />
+    <Content Include="bootstrap3\css\bootstrap.min.css" />
+    <Content Include="bootstrap3\css\font-awesome.css" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.svg" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap3\js\bootstrap.js" />
+    <Content Include="bootstrap3\js\bootstrap.min.js" />
+    <Content Include="Internal\CoreBundles\bootstrap.css" />
+    <Content Include="Internal\CoreBundles\bootstrap.js" />
+    <Content Include="Internal\CoreBundles\jquery-2.1.4.js" />
+    <Content Include="Internal\Default.aspx" />
+    <Content Include="jquery\jquery-1.10.2.js" />
+    <Content Include="jquery\jquery-ui.custom.min.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\css\.DS_Store" />
+    <Content Include="assets\.DS_Store" />
+    <Content Include="assets\img\.DS_Store" />
+    <Content Include="assets\js\.DS_Store" />
+    <Content Include="bootstrap3\.DS_Store" />
+    <Content Include="bootstrap3\css\.DS_Store" />
+    <Content Include="bootstrap3\fonts\.DS_Store" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.eot" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.ttf" />
+    <Content Include="bootstrap3\fonts\fontawesome-webfont.woff" />
+    <Content Include="bootstrap3\fonts\FontAwesome.otf" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap3\js\.DS_Store" />
+    <Content Include="jquery\.DS_Store" />
+    <Content Include="Internal\Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,12 +162,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts\ai.0.15.0-build58334.js" />
-    <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Styles\Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Internal\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Internal\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\External.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="External\" />
+    <Folder Include="Minutes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
