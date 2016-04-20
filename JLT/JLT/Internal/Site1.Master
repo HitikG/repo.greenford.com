@@ -7,7 +7,7 @@
     <title>JLT Internal</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <script src="/CoreBundles/jquery-2.1.4.js"></script>
+    <script src="CoreBundles/jquery-2.1.4.js"></script>
     <script src="/CoreBundles/bootstrap.js"></script>
     <link href="/CoreBundles/bootstrap.css" rel="stylesheet" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
@@ -16,8 +16,10 @@
 <body>
     <form id="form1" runat="server">
         <div class="MainPage">
-            <img src="Images/Logo.png" class="MainImage" />
-            JLT Internal
+            <a href="Default.aspx">
+                <img src="Images/Logo.png" class="MainImage" />
+                <a href="Default.aspx">JLT Internal Alpha</a>
+            </a>
         </div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

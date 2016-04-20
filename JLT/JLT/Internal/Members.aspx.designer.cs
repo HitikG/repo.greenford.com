@@ -11,7 +11,7 @@ namespace JLTInternal
 {
 
 
-    public partial class Default
+    public partial class Members
     {
     }
 }
