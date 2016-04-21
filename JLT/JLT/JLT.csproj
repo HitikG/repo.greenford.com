@@ -94,65 +94,71 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\demo.css" />
-    <Content Include="assets\css\get-shit-done.css" />
-    <Content Include="assets\css\gsdk-base.css" />
-    <Content Include="assets\css\gsdk-checkbox-radio-switch.css" />
-    <Content Include="assets\css\gsdk-sliders.css" />
-    <Content Include="assets\img\bg.jpg" />
-    <Content Include="assets\img\blurred-black-cover.jpeg" />
-    <Content Include="assets\img\carousel_blue.png" />
-    <Content Include="assets\img\carousel_green.png" />
-    <Content Include="assets\img\carousel_orange.png" />
-    <Content Include="assets\img\carousel_red.png" />
-    <Content Include="assets\img\cover_4.jpg" />
-    <Content Include="assets\img\cover_4_blur.jpg" />
-    <Content Include="assets\img\dulau.jpg" />
-    <Content Include="assets\img\mask.png" />
-    <Content Include="assets\img\mockup.png" />
-    <Content Include="assets\img\new_logo.png" />
-    <Content Include="assets\img\tim_80x80.png" />
-    <Content Include="assets\js\custom.js" />
-    <Content Include="assets\js\get-shit-done.js" />
-    <Content Include="assets\js\gsdk-bootstrapswitch.js" />
-    <Content Include="assets\js\gsdk-checkbox.js" />
-    <Content Include="assets\js\gsdk-radio.js" />
-    <Content Include="assets\js\jquery-ui-1.10.4.custom.min.js" />
-    <Content Include="bootstrap3\css\bootstrap-theme.css" />
-    <Content Include="bootstrap3\css\bootstrap-theme.min.css" />
-    <Content Include="bootstrap3\css\bootstrap.css" />
-    <Content Include="bootstrap3\css\bootstrap.min.css" />
-    <Content Include="bootstrap3\css\font-awesome.css" />
-    <Content Include="bootstrap3\fonts\fontawesome-webfont.svg" />
-    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="bootstrap3\js\bootstrap.js" />
-    <Content Include="bootstrap3\js\bootstrap.min.js" />
+    <Content Include="External\Default.aspx" />
+    <Content Include="GSD\assets\css\demo.css" />
+    <Content Include="GSD\assets\css\get-shit-done.css" />
+    <Content Include="GSD\assets\css\gsdk-base.css" />
+    <Content Include="GSD\assets\css\gsdk-checkbox-radio-switch.css" />
+    <Content Include="GSD\assets\css\gsdk-sliders.css" />
+    <Content Include="GSD\assets\img\bg.jpg" />
+    <Content Include="GSD\assets\img\blurred-black-cover.jpeg" />
+    <Content Include="GSD\assets\img\carousel_blue.png" />
+    <Content Include="GSD\assets\img\carousel_green.png" />
+    <Content Include="GSD\assets\img\carousel_orange.png" />
+    <Content Include="GSD\assets\img\carousel_red.png" />
+    <Content Include="GSD\assets\img\cover_4.jpg" />
+    <Content Include="GSD\assets\img\cover_4_blur.jpg" />
+    <Content Include="GSD\assets\img\dulau.jpg" />
+    <Content Include="GSD\assets\img\mask.png" />
+    <Content Include="GSD\assets\img\mockup.png" />
+    <Content Include="GSD\assets\img\new_logo.png" />
+    <Content Include="GSD\assets\img\tim_80x80.png" />
+    <Content Include="GSD\assets\js\custom.js" />
+    <Content Include="GSD\assets\js\get-shit-done.js" />
+    <Content Include="GSD\assets\js\gsdk-bootstrapswitch.js" />
+    <Content Include="GSD\assets\js\gsdk-checkbox.js" />
+    <Content Include="GSD\assets\js\gsdk-radio.js" />
+    <Content Include="GSD\assets\js\jquery-ui-1.10.4.custom.min.js" />
+    <Content Include="GSD\bootstrap3\css\bootstrap-theme.css" />
+    <Content Include="GSD\bootstrap3\css\bootstrap-theme.min.css" />
+    <Content Include="GSD\bootstrap3\css\bootstrap.css" />
+    <Content Include="GSD\bootstrap3\css\bootstrap.min.css" />
+    <Content Include="GSD\bootstrap3\css\font-awesome.css" />
+    <Content Include="GSD\bootstrap3\fonts\fontawesome-webfont.svg" />
+    <Content Include="GSD\bootstrap3\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GSD\bootstrap3\js\bootstrap.js" />
+    <Content Include="GSD\bootstrap3\js\bootstrap.min.js" />
+    <Content Include="GSD\jquery\jquery-1.10.2.js" />
+    <Content Include="GSD\jquery\jquery-ui.custom.min.js" />
+    <Content Include="Internal\AddMember.aspx" />
     <Content Include="Internal\CoreBundles\bootstrap.css" />
     <Content Include="Internal\CoreBundles\bootstrap.js" />
     <Content Include="Internal\CoreBundles\jquery-2.1.4.js" />
     <Content Include="Internal\Default.aspx" />
-    <Content Include="jquery\jquery-1.10.2.js" />
-    <Content Include="jquery\jquery-ui.custom.min.js" />
+    <Content Include="Internal\Members.aspx" />
+    <Content Include="Internal\Register.aspx" />
+    <Content Include="Internal\ViewMembers.aspx" />
+    <Content Include="Internal\Warnings.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\css\.DS_Store" />
-    <Content Include="assets\.DS_Store" />
-    <Content Include="assets\img\.DS_Store" />
-    <Content Include="assets\js\.DS_Store" />
-    <Content Include="bootstrap3\.DS_Store" />
-    <Content Include="bootstrap3\css\.DS_Store" />
-    <Content Include="bootstrap3\fonts\.DS_Store" />
-    <Content Include="bootstrap3\fonts\fontawesome-webfont.eot" />
-    <Content Include="bootstrap3\fonts\fontawesome-webfont.ttf" />
-    <Content Include="bootstrap3\fonts\fontawesome-webfont.woff" />
-    <Content Include="bootstrap3\fonts\FontAwesome.otf" />
-    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="bootstrap3\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="bootstrap3\js\.DS_Store" />
-    <Content Include="jquery\.DS_Store" />
+    <Content Include="GSD\assets\.DS_Store" />
+    <Content Include="GSD\assets\css\.DS_Store" />
+    <Content Include="GSD\assets\img\.DS_Store" />
+    <Content Include="GSD\assets\js\.DS_Store" />
+    <Content Include="GSD\bootstrap3\.DS_Store" />
+    <Content Include="GSD\bootstrap3\css\.DS_Store" />
+    <Content Include="GSD\bootstrap3\fonts\.DS_Store" />
+    <Content Include="GSD\bootstrap3\fonts\fontawesome-webfont.eot" />
+    <Content Include="GSD\bootstrap3\fonts\fontawesome-webfont.ttf" />
+    <Content Include="GSD\bootstrap3\fonts\fontawesome-webfont.woff" />
+    <Content Include="GSD\bootstrap3\fonts\FontAwesome.otf" />
+    <Content Include="GSD\bootstrap3\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="GSD\bootstrap3\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="GSD\bootstrap3\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="GSD\bootstrap3\js\.DS_Store" />
+    <Content Include="GSD\jquery\.DS_Store" />
     <Content Include="Internal\Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -166,12 +172,41 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="External\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="External\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Internal\AddMember.aspx.cs">
+      <DependentUpon>AddMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\AddMember.aspx.designer.cs">
+      <DependentUpon>AddMember.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Internal\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Internal\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Internal\Members.aspx.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\Members.aspx.designer.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Internal\Classes\PowerToInnovate.cs" />
+    <Compile Include="Internal\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Internal\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -180,11 +215,24 @@
     <Compile Include="Internal\Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
+    <Compile Include="Internal\ViewMembers.aspx.cs">
+      <DependentUpon>ViewMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\ViewMembers.aspx.designer.cs">
+      <DependentUpon>ViewMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Internal\Warnings.aspx.cs">
+      <DependentUpon>Warnings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Internal\Warnings.aspx.designer.cs">
+      <DependentUpon>Warnings.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Script\External.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="External\" />
     <Folder Include="Minutes\" />
   </ItemGroup>
   <PropertyGroup>
