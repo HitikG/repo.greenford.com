@@ -11,7 +11,8 @@ namespace JLT
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Members.Text = JLTInternal.Classes.ReadDB();
+            Response.Redirect("#Main");
         }
     }
 }

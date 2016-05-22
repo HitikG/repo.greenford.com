@@ -8,21 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="author" content="Hitik Gohil" />
+
+    <!-- external -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script src="Scripts/jquery.fullPage.js"></script>
-    <script src="Scripts/jquery.slimscroll.min.js"></script>
-    <link href="Content/jquery.fullPage.css" rel="stylesheet" />
-    <link href="Content/Master.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css' />
+
+    <!-- Internal -->
+    <script src="Scripts/Design/jquery.fullPage.js"></script>
+    <script src="Scripts/Design/jquery.slimscroll.min.js"></script>
+    <link href="Scripts/Design/jquery.fullPage.css" rel="stylesheet" />
+    <link href="Scripts/Custom/Master.css" rel="stylesheet" />
+
     <link rel="shortcut icon" href="../Images/favicon.ico" />
-    <!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
-    <script type="text/javascript" src="../jquery.fullPage.js"></script>
+
+    <!-- No Idea But Was In The Original Site-->
     <script type="text/javascript" src="examples.js"></script>
+
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
@@ -32,6 +34,11 @@
             });
         });
     </script>
+    <!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
     <!-- This website is created and maintained by Hitik Gohil © 2014 - 2016 -->
     <!-- Using fullPage.js By Alvaro Trigo-->
     <!-- Using slimScroll.js By rochal -->
@@ -50,20 +57,24 @@
         </div>
         <div class="section section1" id="section1">
             <div class="back">
+                <asp:Image ID="Image1" runat="server" ImageUrl="Images/JLTLogoBackground - Copy.jpg" Height="100%" Width="100%" />
             </div>
         </div>
         <div class="section" id="section3">
             <div class="slide active">
                 <div class="HeadSlide">
-                    <asp:Image ID="Head" runat="server" ImageUrl="~/Images/HeadStudents.jpg" Height="100%" Width="100%" />
+                    <asp:Image ID="Head" runat="server" ImageUrl="Images/HeadStudents.jpg" Height="100%" Width="100%" />
                 </div>
             </div>
             <div class="slide">
                 <div class="DepSlide">
-                    <asp:Image ID="Deputy" runat="server" ImageUrl="~/Images/Deputy.jpg" Height="100%" Width="100%" />
+                    <asp:Image ID="Deputy" runat="server" ImageUrl="Images/Deputy.jpg" Height="100%" Width="100%" />
                 </div>
             </div>
             <div class="slide">
+                <div class="memberslide">
+                    <asp:Label runat="server" ID="Members" />
+                </div>
             </div>
         </div>
     </div>
