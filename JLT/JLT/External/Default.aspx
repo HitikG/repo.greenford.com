@@ -64,9 +64,6 @@
                 </div>
             </div>
             <div class="slide">
-                <div class="OterSlide">
-                    Bitches.
-                </div>
             </div>
         </div>
     </div>
