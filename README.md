@@ -7,7 +7,7 @@ For those wondering we are using a dummy database hosted on the HRiServer at the
 For those who wish to contribute:
 * Create a fork
 * Add your own code using Visual Studio
-* Make sure it works#
+* Make sure it works
 * Commit and sync the changes made
 * Submit a pull request
 
