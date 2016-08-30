@@ -14,7 +14,7 @@ namespace JLTInternal
         public static string ReadDB()
         {
             string Return = "";
-            Return += "<div class ='members'>";
+            // Return += "<div class ='members'>";
 
             string MemberQuery = "SELECT * FROM Members"; //Our Query To Insert
             SqlConnection MemberConnect = new SqlConnection(ConfigurationManager.ConnectionStrings["DsJLT"].ConnectionString); //Declaring Our Connection String
@@ -27,7 +27,7 @@ namespace JLTInternal
                 {
                     while (reader != null && reader.Read())
                     {
-                        Return += "<div class='Member'>" + reader["FirstName"].ToString() + "</div><br />" ;
+                        Return += reader["FirstName"].ToString() + "<br />" ;
                     }
                 }
 
