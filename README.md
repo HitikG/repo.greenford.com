@@ -11,6 +11,6 @@ For those who wish to contribute:
 * Commit and sync the changes made
 * Submit a pull request
 
-And if we believe it is of acctual benefit to our project we will syncronise your fork with the main project else we will close it.
+And if we believe it is of actual benefit to our project we will syncronise your fork with the main project else we will close it.
 
-Feel free to make your own forks to the project and edit the code in such a way that it could fit your neeeds. All the required documentation is already in most of the files.
+Feel free to make your own forks to the project and edit the code in such a way that it could fit your needs. All the required documentation is already in most of the files.
